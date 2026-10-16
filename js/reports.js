@@ -2,7 +2,7 @@
 // "reports/" folder and set its `file` path below. Slots with an empty
 // `file` are shown as "Not yet available".
 const REPORTS = [
-  { title: "Project Proposal",         file: "reports/proposal.pdf" },
+  { title: "Project Proposal",         file: "reports/CMPE491Proposal.docx" },
   { title: "Project Specifications",   file: "" },
   { title: "Project Analysis Report",  file: "" },
   { title: "High-Level Design Report", file: "" },
