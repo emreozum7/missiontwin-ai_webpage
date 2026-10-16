@@ -1,0 +1,77 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text: #1c2333;
+  --muted: #5d6679;
+  --accent: #2b59ff;
+  --border: #e1e5ee;
+  --danger: #c62828;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.container {
+  width: min(1000px, 100%);
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #101a3a, #2b59ff);
+  color: #fff;
+  padding-block: 64px 40px;
+}
+.hero .eyebrow { margin: 0; opacity: .8; letter-spacing: .1em; text-transform: uppercase; font-size: .85rem; }
+.hero h1 { margin: 8px 0; font-size: clamp(2rem, 6vw, 3.4rem); }
+.hero .tagline { max-width: 640px; opacity: .92; font-size: 1.1rem; }
+.hero nav { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.hero nav a {
+  color: #fff; text-decoration: none; padding: 6px 16px;
+  border: 1px solid rgba(255,255,255,.5); border-radius: 999px; font-size: .95rem;
+}
+.hero nav a:hover { background: rgba(255,255,255,.15); }
+
+section { padding-block: 40px 8px; }
+h2 { margin: 0 0 16px; font-size: 1.6rem; }
+h3 { margin: 0 0 8px; font-size: 1.05rem; }
+
+#summary p {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 24px; margin: 0; text-align: justify;
+}
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 20px;
+}
+.card ul { margin: 0; padding-left: 18px; }
+
+.hint { color: var(--muted); font-size: .9rem; margin: -6px 0 16px; }
+
+.report { display: flex; flex-direction: column; gap: 10px; }
+.report .status { color: var(--muted); font-size: .9rem; word-break: break-all; }
+.report .status.ok { color: #1b7a3a; }
+.report .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+
+.btn {
+  font: inherit; font-size: .9rem; cursor: pointer; text-decoration: none;
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--accent);
+  background: var(--accent); color: #fff;
+}
+.btn.secondary { background: transparent; color: var(--accent); }
+.btn.danger { background: transparent; color: var(--danger); border-color: var(--danger); }
+.btn:hover { opacity: .88; }
+
+input[type="file"] { display: none; }
+
+footer { margin-top: 48px; padding-block: 24px; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--border); }
