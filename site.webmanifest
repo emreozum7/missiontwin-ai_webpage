@@ -1,0 +1,17 @@
+{
+  "name": "MissionTwin AI",
+  "short_name": "MissionTwin",
+  "description": "LLM-assisted planning, multi-agent coordination and Shapley-based decision analysis for synthetic defense missions.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#10201e",
+  "theme_color": "#10201e",
+  "icons": [
+    {
+      "src": "assets/missiontwin-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
