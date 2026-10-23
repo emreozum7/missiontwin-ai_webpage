@@ -2,7 +2,7 @@
 // Empty paths stay visible in the library as "Not yet available".
 const REPORTS = [
   { title: "Project Proposal", file: "reports/CMPE491Proposal.docx" },
-  { title: "Project Specifications", file: "" },
+  { title: "Project Specifications", file: "reports/MissionTwin_AI_Project_Specifications.pdf" },
   { title: "Project Analysis Report", file: "" },
   { title: "High-Level Design Report", file: "" },
   { title: "Poster", file: "" },
