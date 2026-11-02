@@ -210,7 +210,7 @@ h2 em { color: #cee69c; }
 .reports-section { background: linear-gradient(180deg, rgba(12, 25, 22, .76) 0, rgba(18, 35, 29, .64) 36%, rgba(10, 22, 20, .78) 100%); }
 .reports-heading > p { max-width: 265px; margin: 0 0 4px; color: #a5b5aa; font-size: 12px; line-height: 1.8; }
 .reports-toolbar { display: flex; justify-content: space-between; margin-top: 55px; padding: 11px 14px; color: #a3b2a8; border-top: 1px solid rgba(191, 214, 197, .19); border-bottom: 1px solid rgba(191, 214, 197, .19); font-size: 8px; font-weight: 800; letter-spacing: .15em; }
-.report-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-left: 1px solid rgba(191, 214, 197, .18); }
+.report-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-left: 1px solid rgba(191, 214, 197, .18); }
 .report-card { position: relative; display: flex; flex-direction: column; min-height: 235px; padding: 18px 16px 14px; border-right: 1px solid rgba(191, 214, 197, .18); border-bottom: 1px solid rgba(191, 214, 197, .18); transition: background .25s, transform .25s var(--ease-out); }
 .report-card:hover { z-index: 1; transform: translateY(-4px); background: rgba(37, 57, 45, .72); }
 .report-card-top { display: flex; align-items: center; justify-content: space-between; color: #9caea2; font: 8px "Cascadia Code", Consolas, monospace; }
